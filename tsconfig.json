@@ -1,0 +1,9 @@
+{
+    "extends": "@tsconfig/node18/tsconfig.json",
+    "compilerOptions": {
+        "rootDie": "./src",
+        "outDir": "./dist",
+        "declaration": true
+    },
+    "exclude": ["./dist", "./node_modules", "./src/**/*.test.ts"]
+}

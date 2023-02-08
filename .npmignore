@@ -1,0 +1,6 @@
+coverage
+src
+test
+node_modules
+.env
+.env.test
